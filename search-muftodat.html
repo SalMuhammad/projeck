@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pencarian mufrodat</title>
+  <style>
+   :root{
+    --cari:black;
+   }
+   *{
+    margin: 0;
+    padding: 0;
+   }
+
+   .hero{
+    padding-top: 20px;
+    height: 250px;
+    background-image: linear-gradient(45deg, deepskyblue, lime);
+   }
+
+   .box{
+    width: 60%;
+    margin: auto;
+    display: flex;
+   }
+   .box button{
+    width:30px;
+    box-sizing: border-box;
+    height: 30px;
+    position: relative;
+    transform-origin: 0 0;
+    border-radius: 7px 0 0 7px;
+   }
+   .box button::before{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    border-radius: 50%;
+    width: 35%;
+    height:34%;
+    margin-top: -12px;
+    margin-left: 2px;
+    border: 3px solid var(--cari);
+   }
+   .box button::after{
+    content: '';
+    display: block;
+    background-color: var(--cari);
+    width: 7px;
+    height: 3px;
+    transform: translate(12px, 6px) rotate(45deg);
+    position: absolute;
+   }
+
+   .box input{
+    width: 100%;
+    margin-left: ;
+   }
+
+   button,input{
+    border: none;
+   }
+  </style>
+</head>
+<body>
+ <div class="container">
+  <div class="hero">
+   <div class="box">
+    <button type="submit"><span></span></button>
+    <input type="serach" class="cari"value="Rumah" placeholder="cari mufrodat">
+   </div>
+  </div>
+  <div class="terkait">
+   <h4>terkait</h4>
+
+  </div>
+ </div>
+</body>
+</html>

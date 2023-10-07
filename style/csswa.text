@@ -1,0 +1,253 @@
+* {
+ scrollbar-width: thin;
+ text-decoration: none;
+ list-style: none;
+ /* --dimbgreen: #0f815f; */
+ /* --dimbgreen: #008f69; */
+ --dimbgreen: #018555;
+ --dimbgreen: #018555;
+ --darkgreen: #00c756;
+ --garis:3px solid #ffffff;
+ --color-nama:#6e6363;
+ --profil:42px;
+ --size-nama:15px;
+ --size-chat:.8em;
+ --ukuran:46px;
+}
+* {
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+ color: darkgray;
+ color: black;
+}
+.padding {
+ padding: 0 15px 0 9px;
+}
+.flex {
+ display: flex;
+}
+.tambah-kontak {
+ background: var(--dimbgreen);
+ width: var(--ukuran);
+ height: var(--ukuran);
+ position: fixed;
+ bottom: 30px;
+ right: 30px;
+ border-radius: 50%;
+}
+.tambah-kontak img {
+ margin: auto;
+ width: 20px;
+}
+body::-webkit-scrollbar {
+display: none;
+}
+header {
+ padding: 0 15px;
+ background-color: var(--dimbgreen);
+ height: 60px;
+ justify-content: space-between;
+ align-items: center;
+}
+header h2 {
+ color: white;
+ width: 300px;
+ font-size: 1em;
+}
+.pencarian{
+height: 2.9em;
+padding-top: 19px;
+}
+.cari {
+ margin-right: 19px;
+ display: flex;
+ align-items: center;
+}
+.cari img {
+ width: 17px;
+ height: 100%;
+}
+.dropdown {
+ height: 15px;
+ width: 15px;
+ flex-direction: column;
+ align-items: space-between;
+ z-index: 3;
+}
+.dropdown span {
+ display: block;
+ height: 3px;
+ margin: auto;
+ width: 3px;
+ background-color: white;
+ border-radius: 10px;
+}
+.dropdown span:nth-child(2) {
+ margin: 3px auto;
+}
+header .overlay {
+ display: none;
+}
+.dropdown:hover ~ .overlay {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  display: block;
+  border: 0.5px solid #aaa;
+  box-shadow: 0 0 14px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+}
+.overlay a {
+ background-color: #fff;
+ color: #444;
+ display: block;
+ padding: 10px;
+ font-size: 17px;
+ font-weight: lighter;
+ text-transform: capitalize;
+ width: 170px;
+}
+.overlay a:hover {
+ background-color: #fffefb;
+}
+.navbar {
+ z-index: 1;
+ position: relative;
+ background-color: var(--dimbgreen);
+ position: -webkit-sticky;
+ top: 0;
+ position: sticky;
+}
+.navbar .flex {
+ height: 43.1px;
+ align-items: flex-start;
+ justify-content: space-between;
+}
+.navbar a {
+ margin-top: 5px;
+ font-size: 12px;
+ text-transform: uppercase;
+ color: #92e4c2;
+ font-weight: bolder;
+ padding: 10px;
+ transition: 333ms;
+ width: 85px;
+ text-align: center;
+}
+.navbar a:first-child {
+ padding-bottom: 3px;
+}
+.navbar img {
+margin-top: -3px;
+ width: 19px;
+}
+.navbar a:first-child:hover img {
+ filter: saturate(900);
+}
+.navbar .active {
+ color: #fff;
+ border-bottom: var(--garis);
+}
+.navbar a:first-child {
+ width: 30px;
+}
+.navbar a:hover {
+ color: #fff;
+}
+.navbar a:active {
+ background-color: #cccccc60;
+ border-bottom: none;
+}
+.section {
+ justify-content: space-between;
+ box-sizing: border-box;
+ height: 62px;
+ width: 100%;
+ align-items: center;
+ padding: 0 15px;
+}
+.section:first-child {
+ margin-bottom: 4px;
+ height: 45px;
+ margin-top: 2px;
+}
+.section:first-child .profil {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* background: pink; */
+}
+.section:first-child .nama,
+.section:first-child .notif-chat {
+ height: 100%;
+ justify-content: center;
+}
+.section:hover {
+ background-color: #d3cbc3;
+}
+.section .profil {
+ width: var(--profil);
+ height: var(--profil);
+ border-radius: 50%;
+ overflow: hidden;
+}
+.section .flex {
+ height: 51px;
+ justify-content: space-between;
+}
+.section .notif-chat,
+.section .nama{
+  box-sizing: border-box;
+  width: 46px;
+  padding:7px 0;
+  padding-left: 5px;
+}
+.section .nama {
+  flex-direction: column;
+  width: 200px;
+  justify-content: space-between;
+}
+.section .nama span {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: var(--size-nama);
+  font-weight: bold;
+}
+.section .nama p {
+font-size: var(--size-chat);
+ color: var(--color-nama);
+}
+.section .notif-chat {
+ flex-direction: column;
+ align-items: flex-end;
+}
+.section .notif-chat p {
+ font-size: 11px;
+ color: var(--darkgreen);
+}
+.section .notif-chat span {
+ padding: 1px;
+ align-items: center;
+ width: 16px;
+ display: flex;
+ justify-content: center;
+ color: white;
+ height: 16px;
+ border-radius: 50%;
+ font-size: 9px;
+ background: var(--darkgreen);
+}
+.section .waktu-dibaca p{
+ color: var(--color-nama);
+}
+.bi {
+ font-size: 15px;
+ color: var(--color-nama);
+}
+i.dibaca{
+ color: #006eff;
+}

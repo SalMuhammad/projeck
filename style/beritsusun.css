@@ -1,0 +1,94 @@
+.container{
+  background-color: dimgrey;
+  width: 800px;
+  position:relative;
+  height: 500px;
+  margin: 0px auto;
+  background-image: url(../img/berit.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container div{
+  width: 145px;
+  height: 145px;
+  background-color: rgba(34,127,23,.0);
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity:.;
+  
+}
+
+.container div.beteng{
+  background-image: url(../img/beteng.png);
+  right: 352px;
+  bottom: 254px;
+}
+.container div.buntut{
+  background-image: url(../img/buntut.png);
+  top:248px;
+  left: 175px;
+}
+.container div.cokor{
+  background-image: url(../img/cokor.png);
+  right:459px;
+  bottom: 148px
+}
+.container div.hulu{
+  background-image: url(../img/hulu.png);
+}
+.container div.suku{
+  background-image: url(../img/suku.png);
+  right: 311px;
+  bottom: 150px;
+}
+.container div.tongong{
+  background-image: url(../img/tongong.png);
+  top: 86px;
+  left: 252px;
+}
+
+.container div.tungir{
+  background-image: url(../img/tungir.png);
+  top:128px;
+  left: 201px;
+}
+
+
+.hulu{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>form register</title>
+ <link rel="stylesheet" href="../style/register.css">
+</head>
+<body>
+ <div class="box">
+  <h4>form register</h4>
+  <form action="">
+    <table border="0" cellspacing="0">
+     <tr>
+      <td class="label"><label for="nama">nama</label></td>
+      <td class="depan"><input type="text" id="nama" class="input" placeholder="Nama depan.."></td>
+      <td class="belakang"><input type="text" class="input" placeholder="Nama belakang.."></td>
+     </tr>
+    </table>
+
+    <table border="0" cellspacing="0">
+     <tr>
+      <td class="label"><label for="email">email</label></td>
+      <td colspan="2" class="email"><input type="email" class="input"></td>
+     </tr>
+     <tr>
+      <td class="label"><label for="password">password</label></td>
+      <td colspan="2"><input type="password" id="password" placeholder="masukan password yang aman" class="input"></td>
+     </tr>
+     <tr>
+      <td class="label"><label for="konfir">konfirmasi</label></td>
+      <td colspan="2"><input type="password" id="konfir" placeholder="konfirmasi password" class="input"></td>
+     </tr>
+     <tr>
+      <td class="label"><label for="no">nomor</label></td>
+      <td class="area"><input class="input" type="text" value="+62"  class="radio" ></td>
+      <td class="zona"><input type="number" class="input" id="no"></td>
+     </tr>
+    </table>
+
+    <div class="wilayah">
+     <p>kategori pendaftaran</p>
+     <div class="kotak">
+      <div class="kategori">
+       <input type="radio" class="radio" name="kategori" id="reguler">
+       <label for="reguler" class="label" name="kategori">reguler</label>
+      </div>
+      <div class="kategori">
+       <input type="radio" id="khusus" name="kategori" class="radio">
+       <label for="khusus" class="label" name="kategori">khusus</label>
+      </div>
+     </div>
+     <input type="submit" id="submit" value="kirim">
+    </div>
+  </form>
+ </div>
+</body>
+</html>

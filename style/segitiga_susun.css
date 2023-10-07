@@ -1,0 +1,75 @@
+.container {
+  position: relative;
+  width: 950px;
+  height: 750px;
+  margin: 20px auto;
+  background-color: #435;
+  background-image: url(../img/background_petunjuk.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container .ukuran {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(10, 190, 220, .0);
+  background-size: cover;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  text-shadow: 0 0 1px black;
+  font-weight: bold;
+  font-size: 50px;
+  background-size: 100% 100;
+  background-repeat: no-repeat;
+  opacity: .3;
+}
+
+.gambar1 {
+  background-image: url(../img/gambar1.png);
+  left: 344px;
+}
+
+.gambar2 {
+  background-image: url(../img/gambar2.png);
+  left: 500px;
+}
+
+.gambar3 {
+  background-image: url(../img/gambar3.png);
+  left: 280px;
+  top: 97px;
+}
+
+.gambar4 {
+  background-image: url(../img/gambar4.png);
+  top: 170px;
+  left: 215px;
+}
+
+.gambar5 {
+  background-image: url(../img/gambar5.png);
+  top: 0px;
+  left: 140px;
+}
+
+.gambar6 {
+  background-image: url(../img/gambar6.png);
+  top: 102px;
+  left: 350px;
+}
+
+.gambar7 {
+  background-image: url(../img/gambar7.png);
+  top: 250px;
+  right: 250px;
+}
+
+
+
+
+.poto1 {
+  position: relative;
+  top: 110;
+}

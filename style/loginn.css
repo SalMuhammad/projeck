@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: rgb(149, 60, 0);
+}
+.box{
+    border:2px solid whitesmoke;
+    border-radius: 10px;
+    margin:8% auto;
+    padding:40px;
+    width: 500px;
+}

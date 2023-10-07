@@ -1,0 +1,198 @@
+
+*{
+ /* background: transparent; */
+ margin: 0%; padding: 0;
+ text-decoration: none;
+ list-style: none;
+ border: none;
+ outline: none;
+}
+.flex{
+ display: flex;
+}
+.between{
+ justify-content: space-between;
+}
+select{
+ background: transparent;
+ color: white;
+ font-weight: bold;
+ text-transform: capitalize;
+}
+.justify-start{
+ justify-content: flex-start;
+}
+.weight-normal{
+ font-weight: normal;
+}
+.justify-end{
+ justify-content: flex-end;
+}
+.t-black{
+ color: #333;
+}
+.t-white{
+ color: white;
+}
+.capitalize{
+ text-transform: capitalize;
+}
+p,a,span{
+ font-size: .7em;
+}
+
+
+
+
+
+
+
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+}
+header{
+ background: #1d1e30;
+}
+.wadah{
+ align-items: flex-end;
+ width: 1250px;
+ margin: auto;
+}
+header .luhur{
+ padding: 7px 0;
+}
+
+
+
+
+
+.logo{
+ /* background: teal;   */
+ position: relative;
+}
+/* .logo::before{
+ display: block;
+ content: '';
+ position: absolute;
+ width: 200px;
+ height: 200px;
+ border-bottom: 4px solid orangered;
+ border-radius: 50%;
+} */
+
+.logo a{
+ left: 50px;
+ bottom: -4px;
+ position: absolute;
+ color: teal;
+ font-weight: bolder;
+ font-size: .5em;
+ /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+
+
+
+
+
+.left,.center,.right{
+ flex: 1;
+}
+.left{
+ flex: .8;
+}
+.left .flex{
+ align-items: flex-end;
+ justify-content: space-between;
+}
+.left span{
+ margin-bottom: 6px;
+ /* background: salmon; */
+}
+.left select{
+ margin-left: -5px;
+ /* background: turquoise; */
+}
+
+
+.center{
+ /* background: orchid; */
+ flex: 4.5;
+ /* gap: 10px; */
+}
+.center nav{
+ /* background: paleturquoise; */
+}
+
+.center nav .flex{
+ /* background: plum; */
+ gap: 22px;
+}
+
+.anak-center{
+ background: palegreen;
+}
+
+
+
+
+
+.pencarian{
+ /* padding-right: 30px; */
+ margin-top: 16px;
+ gap: 40px;
+ /* background: yellow; */
+}
+
+/* bagian cari */
+.cari{
+ flex: 4;
+}
+.cari select{
+ color: black;
+ background: #dbdbdb;
+}
+.cari .btn{
+ padding: 0 10px;
+ background: orange;
+}
+.cari img{
+ filter: invert(100%);
+}
+.cari input{
+ width: 100%;
+}
+
+.shop{
+ margin-top: 20px;
+}
+
+
+/* bagain nav */
+nav a{
+ color: white;
+}
+
+
+
+
+
+
+/* bagian jumbotron */
+.jumbotron{
+ height: 400px;
+ background: #0f4a81;
+}
+
+
+
+
+
+
+
+
+
+
+
+

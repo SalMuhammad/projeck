@@ -1,0 +1,87 @@
+*{
+ margin: 0;
+ padding: 0;
+ text-transform: capitalize;
+ color: white;
+}
+.flex{
+ display: flex;
+}
+
+.l-photo::before{
+ background:url(../icon/status.png);
+}
+.l-camera::before{
+ background:url(../icon/status.png);
+}
+.l-arsip::before{
+ background:url(../icon/back.png);
+}
+.l-pesan::before{
+ background:url(../icon/chat.png);
+}
+.l-panggilan::before{
+ background:url(../icon/panggilan.png);
+}
+.l-telepon::before{
+ background:url(../icon/telepon.png);
+}
+.l-pulpen::before{
+ background:url(../icon/pulpen.png);
+}
+.l-camera::before{
+ background:url(../icon/camera.png);
+}
+.cardselec .l-tambah::before{
+ content: '+';
+ font-size: 1.4em;
+ /* color: white; */
+}
+
+.l::before{
+ content: '';
+ display: inline-block;
+ width: 13px;
+ height: 13px;
+ background-size: cover;
+}
+
+.between{
+ justify-content: space-between;
+}
+
+
+
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.jumbotron{
+ background: url(../kota2.jpg);
+ background-size: cover;
+ height: 100vh;
+ background-position: 0 -200px;
+}
+
+.wadah{
+ width: 900px;
+ margin: auto;
+}
+
+.navtop{
+ padding: 9px 0;
+ border-bottom: 1px solid rgba(255, 255, 255, 0.712);
+}
+
+.menu li{
+ display: inline-block;
+ list-style: none;
+ /* background: red; */
+}
+
+.menu a{
+ text-transform: uppercase;
+ text-decoration: none;
+ padding: 10px;
+ display: block;
+}

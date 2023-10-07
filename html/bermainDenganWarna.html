@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>latihan DOM</title>
+ <style>
+  body{
+   text-align: center;
+   font-family: sans-serif;
+  }
+  .maroon{
+   background: dodgerblue;
+   color: white;
+  }
+  
+
+  table{
+   margin:50px auto;
+  }
+  /* td{
+   border-right: 1px solid gray;
+   border-bottom: 1px solid gray;
+  } */
+  table input{
+   width: 250px;
+  }
+  table span{
+   display: block;
+   color: white;
+   padding: 4px 10px;
+  }
+  .value{
+   background:white;
+   font-weight: bold;
+   width: 36px;
+   border:2px solid blue;
+   color: blue;
+  }
+  .vmerah{
+   border: 2px solid red;
+   color: red;
+  }
+  .vhijau{
+   border: 2px solid green;
+   color: green;
+  }
+
+  .merah{
+   background: red;
+  }
+  .hijau{
+   background: green;
+  }
+  .biru{
+   background: blue;
+  }
+ </style>
+</head>
+<body>
+ <h1 id="judul">Bermain dengan warna</h1>
+
+
+<table>
+ <tr>
+  <td><span class="merah">Merah</span></td>
+  <td class="value vmerah"></td>
+  <td><input type="range" min="0" max="255" name="merah" id="merah"></td>
+ </tr>
+
+ <tr>
+  <td><span class="hijau">Hijau</span></td>
+  <td class="value vhijau"></td>
+  <td><input type="range" min="0" max="255" name="hijau" id="hijau"></td>
+ </tr>
+
+ <tr>
+  <td><span class="biru">Biru</span></td>
+  <td class="value vbiru"></td>
+  <td><input type="range" name="biru" id="biru" min="0" max="255" ></td>
+ </tr>
+</table>
+
+<div class="elementLama">ujang</div>
+
+
+
+
+
+
+ <script src="bermainDenganWarna.js"></script>
+</body>
+</html>

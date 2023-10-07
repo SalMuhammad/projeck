@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Chat</title>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="../style/wa.css">
+</head>
+<body>
+<a href="#">
+  <div class="tambah-kontak flex">
+    <img src="../icon/chat.png" alt="">
+  </div>
+</a>
+ <div class="stycky">
+  <header class="pencarian flex">
+   <h2>WhatsApp</h2>
+   <a href="#" id="pencarian" class="cari">
+    <img src="../img/cari.png" alt="icon-pencarian">
+   </a>
+   <a href="#" id="dropdown-chat" class="dropdown flex">
+    <span></span>
+    <span></span>
+    <span></span>
+   </a>
+   <div class="overlay" id="overlay-chat">
+    <ul>
+     <li><a href="#">grup baru</a></li>
+     <li><a href="#">siaran baru</a></li>
+     <li><a href="#">perangkat tertaut</a></li>
+     <li><a href="#">pesan berbintang</a></li>
+     <li><a href="setelan.html">setelan</a></li>
+    </ul>
+   </div>
+  </header>
+  <nav class="navbar">
+   <ul class="flex">
+    <a href="#"></a>
+    <a href="#" class="active">chat</a>
+    <a href="status.html">status</a>
+    <a href="panggilan.html">panggilan</a>
+   </ul>
+  </nav>
+  <div class="wadah">
+    <a href="#" class="section flex">
+      <div class="profil">
+        <img src="../icon/arsip.png" width="33%" alt="">
+      </div>
+      <div class="nama flex">
+        <span>diarsipkan</span>
+      </div>
+      <div class="notif-chat flex">
+        <p>9</p>
+      </div>
+    </a>
+    <div class="orang"></div>
+ <!--   <a href="#" class="section flex">
+      <div class="profil">
+        <img src="../profil/grup.png" width="100%" alt="">
+      </div>
+      <div class="nama flex">
+        <span>tim nurunken mudabir</span>
+        <p>Sodrun: mantap dak...</p>
+      </div>
+      <div class="notif-chat flex">
+        <p>11:01</p>
+        <span>15</span>
+      </div>
+    </a>
+    <a href="#" class="section flex">
+     <div class="profil">
+      <img src="../profil/yuzni.jpg" width="100%" alt="">
+     </div>
+     <div class="nama flex">
+      <span>diniani yuzni</span>
+      <p>jangan lupa ya..!!</p>
+     </div>
+     <div class="notif-chat flex">
+      <p>14:44</p>
+      <span>7</span>
+     </div>
+    </a>
+    <a href="#" class="section flex">
+     <div class="profil">
+       <img src="../profil/no-photo.jpg" width="100%" alt="">
+     </div>
+      <div class="nama flex">
+       <span>acker ley</span>
+       <p><i class="bi bi-check2-all"></i> thank you for your cooperation</p>
+      </div>
+      <div class="notif-chat flex waktu-dibaca">
+       <p>kemarin</p>
+      </div>
+    </a>
+    <a href="#" class="section flex">
+     <div class="profil">
+       <img src="../profil/ag.jpg" width="100%" alt="">
+     </div>
+      <div class="nama flex">
+       <span>agi muhammad</span>
+       <p><i class="bi bi-check2-all dibaca"></i> aya silagus balagoh t...</p>
+      </div>
+      <div class="notif-chat flex waktu-dibaca">
+       <p>kemarin</p>
+      </div>
+    </a>
+    <a href="#" class="section flex">
+      <div class="profil">
+        <img src="../profil/privat.png" width="100%" alt="">
+      </div>
+      <div class="nama flex">
+        <span>rojana</span>
+        <p>sing balet sall?</p>
+      </div>
+      <div class="notif-chat flex">
+        <p>04:05</p>
+        <span>3</span> 
+      </div>
+    </a>
+    <a href="wa_pesan.html" class="section flex">
+      <div class="profil">
+        <img src="../profil/foto profil wa 14.jpg" width="100%" alt="">
+      </div>
+      <div class="nama flex">
+        <span>Ust Maulana</span>
+        <p><i class="bi bi-check2"></i></i> hatur nuhun tazd </p>
+      </div>
+      <div class="notif-chat flex waktu-dibaca">
+        <p>01/04/2022</p>
+      </div>
+    </a>
+     <a href="#" class="section flex">
+      <div class="profil">
+        <img src="../profil/foto profil wa 14.jpg" width="100%" alt="">
+      </div>
+      <div class="nama flex">
+        <span>Ust Maulana</span>
+        <p><i class="bi bi-check2"></i></i> hatur nuhun tazd </p>
+      </div>
+      <div class="notif-chat flex waktu-dibaca">
+        <p>01/04/2022</p>
+      </div>
+    </a>
+    <a href="#" class="section flex">
+      <div class="profil">
+        <img src="../profil/foto profil wa 14.jpg" width="100%" alt="">
+      </div>
+      <div class="nama flex">
+        <span>Ust Maulana</span>
+        <p><i class="bi bi-check2"></i></i> hatur nuhun tazd </p>
+      </div>
+      <div class="notif-chat flex waktu-dibaca">
+        <p>01/04/2022</p>
+      </div>
+    </a>
+    <a href="#" class="section flex">
+      <div class="profil">
+        <img src="../profil/foto profil wa 14.jpg" width="100%" alt="">
+      </div>
+      <div class="nama flex">
+        <span>Ust Maulana</span>
+        <p><i class="bi bi-check2"></i></i> hatur nuhun tazd </p>
+      </div>
+      <div class="notif-chat flex waktu-dibaca">
+        <p>01/04/2022</p>
+      </div>
+    </a>
+    <a href="#" class="section flex">
+      <div class="profil">
+        <img src="../profil/foto profil wa 14.jpg" width="100%" alt="">
+      </div>
+      <div class="nama flex">
+        <span>Ust Maulana</span>
+        <p><i class="bi bi-check2"></i></i> hatur nuhun tazd </p>
+      </div>
+      <div class="notif-chat flex waktu-dibaca">
+        <p>01/04/2022</p>
+      </div>
+    </a>
+    <a href="#" class="section flex">
+      <div class="profil">
+        <img src="../profil/foto profil wa 14.jpg" width="100%" alt="">
+      </div>
+      <div class="nama flex">
+        <span>Ust Maulana</span>
+        <p><i class="bi bi-check2"></i></i> hatur nuhun tazd </p>
+      </div>
+      <div class="notif-chat flex waktu-dibaca">
+        <p>01/04/2022</p>
+      </div>
+    </a>
+  </div> -->
+
+
+
+
+  
+
+<!-- <img src="../gambar-wa.jpg" alt=""> -->
+
+ </div>
+
+<script src="data.js">
+  
+//   const btn =document.createElement('button');
+//   const textBtn=document.createTextNode('Print..!');
+
+//   btn.appendChild(textBtn);
+//   document.body.append(btn);
+//   btn.style.background='dodgerBlue';
+//   btn.style.color='green';
+//   btn.style.border='none';
+//   btn.style.padding='5px 10px';
+//   btn.style.position='absolute';
+//   btn.style.fontWeight='absolute';
+//   btn.style.right='40%';
+//   btn.style.top='10px';
+//   btn.style.borderRadius='10px';
+//   btn.style.cursor='pointer';
+//  function uprint(){
+//   window.print();
+//  }
+ 
+// btn.addEventListener('click',uprint);
+
+// const angka = [-1,2,3,4,5,6,7,-8,9,-4];
+// const n =[]
+// for (let i = 0; i < angka.length; i++){
+//  if (angka[i]<5){
+//   // console.log(angka[i])
+//   n.push(angka[i])
+//  }
+// }
+
+// const ujang = angka.filter( a => a < 5 )
+
+// const nw = angka.map( a => a * 2)
+
+// const nw = angka.reduce( (a,b) => a + b )
+
+
+
+
+ </script>
+</body>
+</html>

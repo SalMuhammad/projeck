@@ -1,0 +1,67 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+}
+body{
+ background: green url(../img/bintang1.jpg);
+ background-position: -0px 0;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.box{
+ color: white;
+ background-color: #0000004d;
+ backdrop-filter: blur(5px);
+ width: 320px;
+ margin: 24vh auto;
+ padding: 30px;
+ box-sizing: padding-box;
+ text-transform: capitalize;
+}
+
+h2{
+ text-align: center;
+ letter-spacing: 1px;
+ margin: 20px;
+}
+input{
+ padding: 15px;
+}
+input::placeholder{
+ text-transform: capitalize;
+}
+input,.btn{
+ outline: none;
+ border: none;
+ width: 100%;
+ height: 40px;
+ background: #0000003f;
+ margin-bottom: 20px;
+ color: white;
+ text-rendering: capitalize;
+ font-weight: bold;
+}
+
+.btn{
+ background: purple;
+ text-transform: capitalize;
+ font-size: 1.1em;
+ cursor: pointer;
+}
+.klar{
+ text-align: center;
+ font-size: .7em;
+ font-weight: bold;
+}
+.klar span{
+ cursor: pointer;
+}
+.klar span:last-child{
+ color: #4e123a;
+}
+
+

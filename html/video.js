@@ -1,0 +1,1 @@
+const input=document.getElementsByName('input')[0].style.background='red';

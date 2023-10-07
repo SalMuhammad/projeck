@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+	padding-right: 0;
+	margin-right: -20px;
+}
+
+
+header{
+height: 400px;
+background-image: url(../img/ggggg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment:absolute;
+background-position: -20px -140px;
+position: relative;
+}
+
+
+.bungkus{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header .menu{
+	background-color: rgba(255, 255, 255, .3);
+	padding: 9px 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	border-bottom: 2px solid white;
+	padding: 5px;
+	font-size: 19px;
+	background-color: rgba(255, 255, 255, .7);
+
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 9px;
+}
+
+
+.menu ul li a{
+	font-family: verdana;
+	font-size: 15px;
+	color: white;
+	text-transform: capitalize;
+	text-shadow: 0 0 2px rgba(0, 0, 0, .2);
+	font-weight: 600;
+}
+
+header .logo{
+	position: absolute;
+	right: 20px;
+	top: 0px;
+}
+
+
+header .herobawah{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 100, 200, .7);
+	width: 100%;
+	padding-top: 9px;
+
+}
+
+.herobawah .cariatas{
+	
+	border-bottom: 3px dotted white;
+}
+
+.cariatas h3{
+	font-size: 18px;
+	color: white;
+	tec
+}
+
+.herobawah .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.hanap{
+	width: 700px;
+	margin: 0 auto;
+}
+
+.anakcontainer{
+	color: white;
+}
+/*akhir header*/

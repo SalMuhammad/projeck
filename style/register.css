@@ -1,0 +1,116 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: arial;
+ color: rgb(65, 64, 64);
+ text-shadow: 0 0 4px white;
+}
+
+body{
+ background: rgb(46, 231, 255) url(../img/kota3.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+.box{
+ background-color: rgba(250, 250, 250, 0.39);
+ width: 400px;
+ margin: 21px auto;
+ border: 1px solid rgba(255, 255, 255, 0.356);
+ border-radius: 3px;
+}
+.box h4{
+ text-shadow: none;
+ background: rgba(0, 0, 0, 0.472);
+ color: white;
+ font-size: 20px;
+ text-align: center;
+ padding: 8px;
+ text-transform: capitalize;
+}
+form{
+ padding: 18px 29px;
+}
+
+table{
+ width: 100%;
+}
+td .nomor{
+ width: 60%;
+}
+td{
+ padding: 10px 5px;
+}
+.input{
+ padding: 5px 10px;
+ width: 100%;
+ background: #eeeeee6b;
+ height: 40px;
+ font-weight: bold;
+ border: none;
+ border-radius: 5px;
+ letter-spacing: 1px;
+ font-size: 15px;
+ color: #3f3d3d;
+ box-sizing: border-box;
+}
+.input::placeholder{
+ color: #4e4c4c86;
+ text-transform: capitalize;
+ font-weight: lighter;
+ font-family: cursive;
+}
+.nama{
+ width: 80%;
+}
+
+.label{
+ width: 20%;
+ text-transform: capitalize;
+}
+.wilayah{
+ background: rgba(255, 255, 255, 0.582);
+ padding: 14px;
+ width: 300px;
+ box-sizing: border-box;
+}
+.area{
+ width: 20%;
+}
+p{
+ font-size: 17px;
+ margin-top: 11px;
+}
+.radio{
+ margin-right: -6px;
+ width: 15px;
+ margin-right: 9px;
+ height: 15px;
+}
+.kotak{
+ display: flex;
+ margin: 7px 0 19px;
+}
+.kategori{
+ width: 90px;
+ /* justify-content: space-between; */
+ margin-right: 32px;
+ display: flex;
+ align-items: center;
+}
+#submit{
+ width: 100px;
+ background: rgb(0,81,255);
+ color: wheat;
+ font-size: 17px;
+ border-radius: 3px;
+ border:none;
+ padding: 5px;
+ text-shadow: none;
+ box-sizing: border-box;
+}
+
+
+
+
+

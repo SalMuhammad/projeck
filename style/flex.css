@@ -1,0 +1,54 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: arial,sans-serif;
+	background-color: #ddd;
+	line-height: 1.65;
+	padding-bottom: 1000px;
+}
+
+/*latihna1*/
+
+.container-satu{
+	width: 800px;
+	margin: 50px auto;
+	background-color: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+
+.kolom-utama{
+
+}
+
+.kolom-kesatu{
+
+}
+
+.kolom-kedua{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

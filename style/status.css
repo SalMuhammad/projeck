@@ -1,0 +1,107 @@
+*{
+ margin: 0;
+ padding: 0;
+ /* background-color: dimgray; */
+}
+
+a .status-pencil{
+ width: 38px;
+ height: 38px;
+ padding: 9px;
+ box-sizing: border-box;
+ box-shadow: 1px 5px 13px hsla(0, 0%, 0%, 0.466);
+ position: absolute;
+ bottom: 93px;
+ right: 36px;
+ display: flex;
+ justify-content: center;
+ background-color: #eaeaea;
+ border-radius: 50%;
+}
+.status-pencil img{
+ width: 87%;
+}
+
+.status-wadah{
+ margin-top: 10px;
+ /* padding: 6px 0; */
+}
+
+.status-wadah .judul-status h3{
+ /* font-size: 5px; */
+ text-transform: capitalize;
+}
+
+
+
+.status-wadah .profil{
+ width: var(--profil);
+ height:var(--profil);
+ /* z-index: -1; */
+ /* overflow: hidden; */
+ box-sizing: border-box;
+ background-image: url(../profil/code.jpeg);
+ background-size: cover;
+ display: inline-block;
+ position: relative;
+ border: 1px solid #444;
+ border-radius: 50%;
+ /* background: darkblue; */
+}
+
+.status-wadah .profil::before{
+ content: '+';
+ font-size: 17.5px;
+ --jebrag:18px;
+ width: var(--jebrag);
+ height: var(--jebrag);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ bottom: -6px;
+ position: absolute;
+ /* z-index: 9; */
+ right: -5px;
+ border: 2px solid white;
+ border-radius:50%;
+ background-color: var(--dimbgreen);
+}
+
+.judul-status{
+ display: flex;
+ padding: 5px 0;
+ flex-direction: column;
+ /* padding: 7px; */
+ margin-left: 20px;
+ box-sizing: border-box;
+ justify-content: space-between;
+}
+
+.judul-status span{
+ font-size: var(--size-nama);
+ font-weight: bold;
+}
+.judul-status p{
+ font-size: var(--size-chat);
+ color: var(--color-nama);
+}
+
+
+.row .terkini{
+ text-transform: capitalize;
+ /* padding: 10px 0; */
+ margin-top: 20px;
+ font-weight: bold;
+ }
+.terkini span{ 
+ font-size: 12px;
+ color: #494949;
+}
+
+
+
+
+
+
+

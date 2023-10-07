@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>pesan</title>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="../style/wa.css">
+ <link rel="stylesheet" href="wa_pesan.css">
+ <link rel="stylesheet" href="../style/panggilan.css">
+</head>
+<body>
+ <div class="stycky">
+  <header class="pencarian flex">
+   <div class="flex align-center">
+    <a class="back flex" href="wa.html">
+     <img src="../icon/back.png" alt="">
+     <img src="../profil/foto profil wa 14.jpg" alt="">
+    </a>
+    <a href="profil_wa.html">
+     <h3 class="nama-pesan">ust maulana</h3>
+    </a>
+   </div>
+   <l class="i vc"></l>
+   <div><img src="../icon/telepon-putih.png" alt=""></div>
+   <a href="#" id="dropdown-chat" class="dropdown flex">
+    <span></span>
+    <span></span>
+    <span></span>
+   </a>
+<!--   
+   <div class="overlay" id="overlay-chat">
+    <ul>
+     <li><a href="#">grup baru</a></li>
+     <li><a href="#">siaran baru</a></li>
+     <li><a href="#">perangkat tertaut</a></li>
+     <li><a href="#">pesan berbintang</a></li>
+     <li><a href="setelan.html">setelan</a></li>
+    </ul>
+   </div> -->
+  </header>
+  
+<div class="pesan"></div>
+<footer>
+ <div class="input-pesan flex justify-conten-between">
+  <div class="input flex justify-conten-between">
+   <img src="../icon/ekspresi.png">
+   <input type="text" id="text" placeholder="Ketikan pesan">
+   <!-- <textarea name=""  id="text" placeholder="Ketikan pesan" cols="30" rows="10"></textarea> -->
+   <div class="katuhu">
+    <img src="../icon/pilih-sesuatu.png" class="pilih-sesuatu">
+    <img src="../icon/camera-abu.png">
+   </div>
+  </div>
+  <button type="submit">
+   <img src="../icon/mic.png">
+  </button>
+</footer>
+</div>
+
+<script>
+ const input = document.querySelector('.input-pesan input');
+ const katuhu = document.querySelector('.katuhu')
+
+ input.addEventListener('input',function(){
+   if(input.value != '' && input.value != ' '  && input.value != '  '  && input.value != '   ' && input.value != '    ' && input.value != '     ' && input.value != '      ' ){
+    katuhu.classList.add('geser')
+   }else{
+    katuhu.classList.remove('geser')
+   }
+ })
+
+
+</script>
+</body>
+</html>

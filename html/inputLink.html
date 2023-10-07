@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+  .gambar{
+   background-color: rgb(146, 146, 146);
+   width: 400px;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 40px;
+   position: relative;
+  }
+
+  img{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+  }
+
+  .bohong{
+   background: rgb(0, 0, 0);
+   height: 100px;
+   display: flex;
+  }
+  .bohong p{
+   color: coral;
+   margin: auto;
+   font-size: 80px;
+  }
+ </style>
+</head>
+<body>
+ <input type="text" name="" id="input">
+ <button>cari</button><br><br>
+
+ <div class="gambar">
+  belum ada gambar
+  <img id="img">
+ </div>
+
+
+<!-- 
+<input type="text" placeholder="nama" id="nama"><br><br>
+<input type="text" placeholder="alamat" id="alamat">
+<button type="submit">kirim</button>
+<table>
+ <tr>
+  <th>no</th>
+  <th>nama</th>
+  <th>alamat</th>
+ </tr>
+ <tr>
+  <td id="no"></td>
+  <td id="ngaran"></td>
+  <td id="lemur"></td>
+ </tr>
+</table> -->
+
+
+<div class="bohong">
+ <p>ujang</p>
+</div>
+
+ <script>
+  const btn=document.querySelector('button');
+  const input=document.getElementById('input');
+  const img=document.getElementById('img');
+  const gambar=document.querySelector('.gambar');
+  btn.addEventListener('click',function(){
+   img.setAttribute('src',input.value);
+   // document.write(input.value);
+  });
+
+
+
+  document.write(ujang)
+
+
+
+//   const nama=document.getElementById('nama');
+//   const alamat=document.getElementById('alamat');
+  
+//   const ngaran=document.getElementById('ngaran');
+//   const lemur=document.getElementById('lemur');
+  
+//   const btn=document.querySelector('button');
+//   function kirim(){
+
+//  ngaran.innerHTML=nama.value;
+//  lemur.innerHTML=alamat.value;
+// }
+// btn.addEventListener('click',kirim);
+
+
+
+ </script>
+</body>
+</html>

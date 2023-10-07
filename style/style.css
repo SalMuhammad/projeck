@@ -1,0 +1,402 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+body{
+
+	background-color: #eee;
+}
+.container{
+	background-color: white;
+	width: 900px;
+	margin:0 auto;
+	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.5);
+	padding-top: 10px;
+
+}
+
+.profil{
+	position: relative;
+	margin:35px; 
+	height: 130px;
+	background-color: yellow;
+	overflow: hidden;
+}
+.profil .luhur{
+	height: 100%;
+	position: relative;
+}
+
+.luhur .transparan{
+	width: 100%;
+	background-color: red;
+	position: absolute;
+	height: 100%;
+	/* background-image:linear-gradient(rgba(0, 0, 0, .0), #ffff00); */
+}
+
+.gold{
+	width: 300px;
+	background-color: gold}
+
+.gold .logo{
+	width: 90px;
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+	transform: skew(-24deg);
+	position: absolute;
+}
+
+.gold .univer{
+	margin-top: 40px;
+	height: 79px;
+	width: 190px;
+	float: right;
+	background-color: rgba(250, 0, 0, 0.0);
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(0, 180, 0);
+	text-shadow: 1px 1px 2px yellow,1px 1px 2px yellow;
+	font-weight: bold;
+	line-height: 13px;
+}
+
+.gold p{
+	font-style: italic;
+	font-family: verdana;
+	font-size: 10px;
+	color: black;
+	text-shadow: 0 0 2px yellow;
+	text-transform: capitalize;
+}
+
+.header{
+	background-color: green;
+
+}
+.menu{
+	height: 18px;
+	padding: 9px;
+    border-bottom: 2px solid white;
+  }
+
+
+
+.menu ul li{
+	margin-right: 6px;
+	display: inline-block;
+}
+
+.menu ul li a:hover{
+	border-bottom: 1px solid white;
+}
+
+li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	color: white;
+	padding-bottom: 5px;
+
+}
+.tulisan{
+	text-align: center;
+	color: white;
+	position: relative;
+	line-height: 30px;
+	height: 30px;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.buled{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	background-color: lime;
+	color: white;
+	position: absolute;
+	text-align: center;
+	line-height: 130px;
+	top: -49px;
+	left: -10px;
+	text-shadow: 0 0 9px black;
+	}
+
+
+.tulisan .teang{
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	background-color: green;
+}
+
+input{
+	margin:0px;
+	padding:5px;
+}
+.teang .btn{
+    font-size: 16px;
+	padding:4px;
+	background-color: lime;
+	color: white;
+	border: none;
+	left:-2px;
+	top:-1.5px;
+	text-shadow: 0 0 7px black;
+}
+
+.konten{
+	position: relative;
+	margin:25px 35px;
+	background-color: rgba(200, 0, 0, 0.0);
+
+}
+
+.konten .wadahgambar{
+	/*padding-top: 20px;*/
+	background-color: rgba(0, 0, 220, 0.2);
+	width: 550px;
+}
+
+.wadahgambar span{
+	font-size: 20px;
+}
+
+.wadahgambar .gambar{
+	padding-top: 15px;
+	padding-right: 20px;
+	position: relative;
+	overflow:hidden;
+}
+
+.gambar .ukuran{
+	width: 200px;
+	padding: 25px 10px 10px;
+	box-sizing: border-box;
+	color: white;
+	font-weight: normal;
+}
+
+.ukuran p{
+	font-weight: 100;
+	margin-top: 6px;
+}
+
+.gambar .kontensatu{
+	background-color: lime;
+	font-weight: 300;
+	position: absolute;
+	right: 50px;
+	padding:5px;
+	padding-left: 170px;
+	color: white;
+	box-sizing: border-box;
+	width: 11px; 
+	height: 30px;
+	font-size: 15px;
+
+}
+
+.kontensatu .H{
+	width: 30px;
+	height: 30px;
+	transform: rotate(45deg);
+	background-color: green;
+	position: absolute;
+	bottom: -3px;
+	left: 1px;
+	text-align: center;
+	line-height: 30px;
+	border-radius:0px 50% 0px 0px; 
+}
+.kontensatu .H h6{
+	transform: rotate(-45deg);
+}
+.gambar .kontendua{
+	background-color: green;
+}
+
+.gambar .kontentiga{
+	background-color: lightgreen;
+}
+
+.gambar .kontenempat{
+	background-color: tomato;
+}
+
+.gambar .kontenlima{
+	position: absolute;
+	top: 231px;
+	right: 0px;
+	height:200px;
+	width: 323px; 
+	background-color: rgba(0, 0, 0, .4);
+	padding:5px 10px;
+	border-right: 8px solid green;
+	text-transform: capitalize;
+}
+
+.wadahkenca{
+	background-color: blueviolet;
+	width: 200px;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	padding: 5px;
+}
+
+.menuinline .rapih{
+	display: inline-block;
+	width: 30px;
+	height: 100%;
+}
+
+.wadahkenca .menuinline{
+	background-color: darkorange;
+	padding: 5px;
+	height: 70px;
+}
+
+.menuinline .populer{
+	background-color: deepskyblue;
+}
+
+.menuinline .terbaru{
+	background-color: violet;
+}
+
+.menuinline .pengumuman{
+	background-color: lavender;
+}
+.menublock{
+	margin-top: 5px;
+	background-color: #eee;
+	padding: 4px;
+}
+ 
+.menublock .kotak{
+}
+
+ .kotak .logo{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+
+.menublock .jumlah{
+	padding: 5px;
+	background-color: teal;
+}
+
+.jumlah .logojumlah{
+	background-color: brown;
+}
+
+.jumlah .tulisanjumlah{
+	background-color:sienna;
+}
+
+.menublock .pasca{
+	padding:5px;
+	background-color:maroon;
+}
+
+.pasca .logopasca{
+	background-color: green;
+}
+.pasca .tulisanpasca{
+	background-color: magenta;
+}
+
+.menublock .muhammad{
+	padding: 5px;
+	background-color: peru;
+}
+
+.muhammad .logomuhammad{
+	background-color: bisque;
+}
+
+.muhammad .tulisanmuhammad{
+	background-color: dodgerblue;
+}
+
+.menublock .calon{
+	padding: 5px;
+	background-color: pink;
+}
+
+.calon .logocalon{
+	background-color: coral;
+}
+
+.calon .tulisancalon{
+	background-color: dimgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

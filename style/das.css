@@ -1,0 +1,107 @@
+*{
+ margin: 0;
+ padding: 0rem;
+ list-style: none;
+ border: none;
+ text-decoration: none;
+ outline: none;
+}
+.capitalize{
+ text-transform: capitalize;
+}
+.uppercase{
+ text-transform: uppercase;
+}
+.flex{
+ display: flex;
+}
+.jus-between{
+ justify-content: space-between;
+}
+.text-center{
+ text-align: center;
+}
+
+
+
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.wadah{
+ width: 1000px;
+ margin: auto;
+}
+/* navtop */
+.navtop{
+ background: dimgray;
+}
+.navtop .flex{
+ color: white;
+ align-items: center;
+}
+.navtop ul{
+ /* gap: 20px; */
+}
+.navtop a{
+ text-style: none;
+ display: block;
+ font-size: .7em;
+ font-weight: bold;
+ color: white;
+ padding: 9px;
+ text-transform: capitalize
+}
+.navtop a:hover{
+ background: white;
+ color: red;
+ transform: skew(-12deg);
+}
+
+
+
+
+/* bagian nav */
+nav{
+ padding:20px 0;
+ box-shadow: 0 2px 7px 1px #d8d5d588;
+}
+nav a{
+ padding: 10px;
+ color: dimgray;
+ font-weight: bold;
+ text-transform: capitalize;
+}
+nav a::nth-child(1){
+ background: rebeccapurple;
+}
+/* akhir nav */
+
+
+
+/* hero */
+.hero{
+ height: 400px;
+ background: #ffd8b8;
+}
+/* akhir hero */
+
+
+/* international */
+.international{
+ padding: 40px 60px;
+ background: white;
+ margin-top: -50px;
+ box-sizing: border-box;
+}
+.international *{
+ margin-bottom: 16px;
+}
+.international h2,
+.international h3{
+ color: red;
+}
+.international p{
+ font-weight: bold;
+}

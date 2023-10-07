@@ -1,0 +1,286 @@
+*{
+ margin: 0;
+ padding: 0;
+ --abu:rgb(223, 222, 222);
+ scrollbar-width: thin;
+ text-decoration: none;
+ list-style: none;9
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background: #fafafa;
+}
+body::-webkit-scrollbar {
+ display: none;
+ }
+.wadah{
+ width: 90%;
+ margin:32px auto 23px;
+}
+
+.i::before{
+ content: '';
+ display: inline-block;
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 20px;
+ height: 20px;
+ background-size: cover;
+}
+
+.panggilan::before{
+ background-image: url(../icon/telepon.png);
+}
+.vc::before{
+ width: 42px;
+ /* background: red; */
+ background-image: url(../icon/vc.png);
+ background-size: 60%;
+}
+.panggilan::before{
+ background-image: url(../icon/telepon.png);
+}
+.simpan::before{
+ background-image: url(../icon/lup_hejo.png);
+}
+.cari::before{
+ background-image: url(../icon/lup_hejo.png);
+}
+
+
+
+
+
+img.back{
+ filter: invert(100%);
+ width: 1.3em;
+ height: 1em;
+}
+
+.auto{
+ display: block;
+ margin: auto;
+ text-align: center;
+}
+
+.flex{
+ display: flex;
+}
+
+
+
+.flex span{
+ font-weight: bold;
+ color: #04af98;
+ text-transform: capitalize;
+
+}
+
+ nav{
+ /* background: yellow; */
+ align-items: center;
+ display: flex;
+ justify-content: space-between;
+}
+
+.drop{
+ height: 17px;
+ width: 5px;
+ /* background: pink; */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.drop span{
+ display: block;
+ border-radius: 50%;
+ width: 4px;
+ height: 4px
+ ;
+ background: #444;
+}
+
+.hero{
+ margin-top: -29px;
+}
+.hero img{
+ border-radius: 50%;
+ --ukuran-profil: 91px;
+ width: var(--ukuran-profil);
+ height: var(--ukuran-profil);
+}
+
+.hero h3{
+ text-transform: capitalize;
+ font-size: 1.3em;
+ font-weight: normal;
+ margin: 15px 0 5px;
+}
+.hero > span{
+ font-size: .99em;
+ color: #838181;
+ font-weight: bold;
+}
+
+
+.hero .flex{
+ /* background-color: aquamarine; */
+ width: 210px;
+ justify-content: space-between;
+ margin: auto;
+}
+.flex p,
+.flex l{
+ display: block;
+}
+
+.hero .flex span l{
+ margin: 20px 0 6px;
+}
+
+.hero .flex p{
+ /* margin-top: 30px; */
+ font-size: .8em;
+ letter-spacing: -.5px;
+}
+
+section{
+ height: 8.6px;
+ background: #f7f4f4;
+ border-top: .6px solid var(--abu);
+}
+
+
+
+/* bagan hawari */
+.hawari{
+ padding: 18px 0 10px;
+ line-height: 19px;
+ color: dimgray;
+ margin: auto;
+}
+.hawari h4{
+ text-transform: capitalize;
+ font-size: .97em;
+ color: #444;
+}
+.hawari span{
+ font-size: .88em;
+}
+/* akhir hawari */
+
+
+
+
+/* bagian galery */
+.wadah-galery{
+ margin: 0 auto 0;
+ padding: 10px 0 0px;
+}
+
+.wadah-galery nav{
+margin: 0 0 10px;
+}
+.wadah h5{
+ text-transform: capitalize;
+ color: dimgray;
+}
+.galery{
+ height: 80px;
+ padding: 0 0 9px 0;
+ gap: 7px;
+}
+
+.galery img{
+ height: auto;
+ width: 85px;
+ border-radius: 10px;
+}
+/* akhir bagian galery */
+
+
+/* bagain bisukan */
+.bisukan{
+ /* background-color: yellow; */
+ position: relative;
+}
+.bisukan nav{
+ /* background-color: #04af98; */
+}
+
+.toggle{
+ height: 15px;
+ width: 35px;
+ right: 19px;
+ top: 13px;
+ border-radius: 10px;
+ position: absolute;
+ cursor: pointer;
+ background-color: rgb(221, 220, 220);
+ /* display: none; */
+}
+
+.toggle::before{
+ content: '';
+ transform: translate(0, -3px);
+ width: 22px;
+ height: 22px;
+ border-radius: 50%;
+ display: block;
+ background: darkgray;
+}
+
+ a{
+ text-transform: capitalize;
+display: block;
+font-size: .8em;
+color: rgb(44, 44, 44);
+text-decoration: none;
+font-weight: bold;
+padding: 9px 0;
+display: flex;
+align-items: center;
+}
+ a:hover{
+ background: rgb(240, 241, 217);
+}
+.bisukan ul{
+ /* background-color: azure; */
+ padding-left: 25px;
+}
+.bisukan span{
+ margin-left: 20px;
+}
+/* akhir bagain bisukan */
+
+
+
+/* enskripsi */
+#enskripsi div.flex{
+ display: flex;
+}
+
+#enskripsi a{
+ display: block;
+ width: 100%;
+}
+
+
+/* akhir enskripsi */
+
+
+.i-align::before{
+ background-size: 75%;
+}
+.bel::before{
+ background-image: url(../icon/bel.png);
+}
+.nada::before{
+ background-image: url(../icon/nada.png);
+}
+.poto::before{
+ background-image: url(../icon/photos.png);
+}
+
+

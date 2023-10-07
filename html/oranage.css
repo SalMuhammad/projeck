@@ -1,0 +1,275 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ --utama:#f34602;
+ --text:#666;
+ border: none;
+}
+
+body{
+ font-family: arial;
+}
+li{
+ list-style: none;
+}
+.flex{
+ display: flex;
+}
+.wadah{
+ width: 900px;
+ margin: auto;
+}
+
+.l-photo::before{
+ background:url(../icon/status.png);
+}
+.l-camera::before{
+ background:url(../icon/status.png);
+}
+.l-arsip::before{
+ background:url(../icon/back.png);
+}
+.l-pesan::before{
+ background:url(../icon/chat.png);
+}
+.l-panggilan::before{
+ background:url(../icon/panggilan.png);
+}
+.l-telepon::before{
+ background:url(../icon/telepon.png);
+}
+.l-pulpen::before{
+ background:url(../icon/pulpen.png);
+}
+.l-camera::before{
+ background:url(../icon/camera.png);
+}
+.cardselec .l-tambah::before{
+ content: '+';
+ font-size: 1.4em;
+ /* color: white; */
+}
+
+.l::before{
+ content: '';
+ height: 13px;
+ width: 13px;
+ background-size: cover;
+ display: inline-block;
+}
+
+
+
+
+
+.navtop{
+  background: var(--utama);
+  width: 100%;
+  color: white;
+  padding: 5px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: .8em;
+}
+.navtop .wadah{
+ justify-content: space-between;
+}
+
+
+.grup-icon-top .l{
+ margin-left: 20px;
+}
+.grup-icon-top h2{
+ align-self: flex-start;
+}
+
+.description-jumbo{
+ justify-content: space-between;
+ /* background: yellow; */
+ padding: 15px 0;
+}
+.description-jumbo h2{
+ text-transform: uppercase;
+}
+.description-jumbo .grup-icon-top{
+ margin: 0;
+ /* background: violet; */
+ justify-content: space-between;
+ width: 450px;
+}
+
+.des{
+ padding-left: 9px;
+ border-left: 3px solid rgb(141, 141, 141);
+}
+.des:first-child{
+ border: none;
+ padding-left: 0;
+}
+.des span{
+ width:130px;
+ display: block;
+ padding-right: 5px;
+ /* background: rebeccapurple; */
+}
+.grup-icon-top .formal span{
+ width: 190px;
+ /* background: red; */
+}
+.des .l{
+ margin: 0;
+ /* background: red; */
+}
+
+
+
+/* bagian navbar */
+nav{
+
+ background: whitesmoke;
+ /* border-top:1px solid #ccc; */
+ /* border-bottom:1px solid #ccc; */
+ 
+}
+.wadah ul{
+ justify-content: space-between;
+}
+
+nav a{
+ color: var(--text);
+ font-weight: bold;
+ text-transform: capitalize;
+ padding: 10px 0;
+ display: block;
+}
+nav a:hover{
+ background-color: var(--utama);
+ color: white;
+}
+ 
+/* akhir bagian navbar */
+
+
+
+
+
+/* bagian jumbotron */
+.jumbotron{
+ z-index: 0;
+ position: relative;
+ /* background: red; */
+ height: 400px;
+}
+
+.jumbotron > img{
+ position: absolute;
+ z-index: -1;
+ width: 100%;
+ filter: hue-rotate(70deg) sepia(0.9);
+ height: 100%;
+}
+
+.profile{
+ position: absolute;
+ width: 60px;
+ right: 220px;
+ height: 60px;
+ top: 90px;
+}
+.profile img{
+ position: absolute;
+ border-radius: 50%;
+ width: 100%;
+ height: 100%;
+ border: 2px solid white;
+}
+/* akhir bagian jumbotron */
+
+
+
+/* bagian card */
+.jumbotron .wadah{
+ position: relative;
+}
+.card{
+ background: white;
+ position: absolute;
+ right: 0;
+ top: 110px;
+ width: 200px;
+}
+.card .items{
+ padding: 5px;
+ flex-direction: column;
+ align-items: center;
+ gap: 5px;
+ text-transform: capitalize;
+}
+.card{
+
+ color: var(--text);
+}
+.jumbotron .card .items button{
+ display: inline-block;
+ padding: 2px 5px;
+ color: white;
+ background: #555;
+ font-size: .7em;
+}
+
+.card a{
+ margin-top: 3px;
+ text-align: center;
+ background: var(--utama);
+ display: block;
+ text-transform: capitalize;
+ color: white;
+ font-weight: bold;
+ font-size: .7em;
+ padding: 5px;
+}
+/* akhir bagian card */
+
+
+
+
+.jumbotron .wadah{
+ position: relative;
+ height: 100%;
+}
+.jumbotron .jumbofooter{
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ justify-content: space-between;
+ background: rgb(247, 247, 255);
+ border-radius: 8px 8px 0 0;
+ padding: 10px;
+ box-sizing: border-box;
+}
+
+.jumbofooter div{
+ color: var(--text);
+ font-weight: bold;
+ /* background: orange; */
+}
+
+.jumbofooter .tombol-hanap{
+ /* background: lavender; */
+ margin-top: 8px;
+ font-weight: bold;
+ height: 35px;
+ text-transform: capitalize;
+ cursor: pointer;
+ border: 2px solid #ddd;
+ width: 135px;
+}
+button.tombol-hanap{
+ background: white;
+}
+.jumbofooter .oren{
+ background: var(--utama);
+ border: var(--utama);
+ color: white;
+}

@@ -1,0 +1,198 @@
+body{
+ background: url(../profil/walpaher_wa.jpg);
+ background-size: cover;
+ height: 100vh;
+ width: 100vw;
+}
+
+
+.back {
+ justify-content: space-between;
+ align-items: center;
+ width: 50px;
+ padding: 5px;
+ border-radius: var(--profil);
+}
+
+.back:active{
+ background: rgba(255, 255, 255, 0.267);
+}
+
+.back img:first-child{
+ width: 15px;
+ height: 14px;
+}
+.back img:nth-child(3){
+ width: var(--pemggil);
+}
+.back img:last-child{
+ width: var(--profil-pesan);
+ height: var(--profil-pesan);
+ border-radius: 50%;
+}
+/* 
+.pencarian .nama-pesan,
+.pencarian .i,
+.pencarian img{
+ flex: 1;
+} */
+.nama-pesan{
+ color: white;
+ text-transform: capitalize;
+ font-size: var(--size-nama);
+ font-weight: bold;
+ margin-left: 7px;
+ /* background-color: brown; */
+ height: 50px;
+ line-height: 50px;
+ width: 130px;
+ padding-left: 5px;
+}
+
+.nama-pesan:active{
+ background: rgba(255, 255, 255, 0.267);
+}
+
+.pencarian .vc{
+ margin-right: 10px;
+ display: block;
+ width: 14px;
+ border-radius: 2px;
+ height: 12px;
+ background: white;
+ position: relative;
+}
+.pencarian .i::after{
+ content: '';
+ position: absolute;
+ display: block;
+}
+.pencarian .vc::after{
+ right: -6px;
+ top: 1px;
+ width: 13px;
+ height: 4px;
+ width: 1px;
+ border: 3px solid transparent;
+ border-right: 4px solid white;
+ border-radius: 2px;
+} 
+
+.pencarian div img {
+ width: 15px;
+}
+
+/* .tel{
+ --buled: 20px;
+ width: var(--buled);
+ height: var(--buled);
+ border-radius: 50%;
+ position: relative;
+ top: -6px;
+ border: 1px solid transparent;
+ border-left: 1px solid white;
+ transform: rotate(-45deg);
+}
+.tel::after{
+ width: 4px;
+ height: 6px;
+ border-radius: 5px;
+ background: white;
+ transform: rotate(29deg);
+ position: absolute;
+ top: 0px;
+ left: 2px;
+}
+.tel::before{
+ width: 4px;
+ height: 6px;
+ border-radius: 5px;
+ background: white;
+ transform: rotate(-30deg);
+ position: absolute;
+ top: 16px;
+ left: 3px;
+} */
+
+footer{
+ position: fixed;
+ bottom: 9px;
+ width: 100%;
+ display: block;
+}
+.input-pesan{
+ --lebar-input: 44px;
+ height: var(--lebar-input);
+ width: 95%;
+ margin: auto;
+ align-items: center;
+ /* background-color: rgb(53, 144, 224); */
+}
+
+.input img{
+ width: 23px;
+ height: 23px;
+}
+
+.input{
+ background-color: rgb(255, 255, 255);
+ border-radius: 20px;
+ padding:0 9px;
+ width: 75%;
+ align-items: center;
+ height: 100%;
+ overflow: hidden;
+ box-shadow: 0 0 8px rgba(65, 64, 64, 0.384);
+}
+
+.input-pesan input{
+ background: transparent;
+ /* background: yellow; */
+ letter-spacing: 2px;
+ width: 170px;
+}
+
+.input-pesan button{
+ background: var(--dimbgreen);
+ border-radius: 50%;
+ padding: 5px;
+ width: var(--lebar-input);
+ height: var(--lebar-input);
+}
+.input-pesan img{
+ height: 20px;
+}
+
+.katuhu{
+ position: relative;
+ /* right: -69px; */
+ display: flex;
+ justify-content: space-between;
+ width: 60px;
+ right: 0px;
+ animation:geserKiri .333s;
+}
+
+.pilih-sesuatu{
+ cursor: pointer;
+}
+
+.katuhu.geser{
+ animation:geserKanan .333s;
+ right: -35px;
+}
+
+@keyframes geserKiri{
+ from{
+  right: -35px;
+ } to{
+  right: 0px;
+ }
+}
+@keyframes geserKanan{
+ from{
+  right: 0px;
+ } to{
+  right: -35px;
+ }
+}
